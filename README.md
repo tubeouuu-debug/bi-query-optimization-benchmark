@@ -164,9 +164,9 @@ Dự án giúp giải phóng **> 3.5 giờ làm việc/ngày** (> 70 giờ/thán
 
 ---
 
-### 📌 1. Vấn Đề Trước Khi Tối Ưu Hóa (Bottlenecks)
+### 📌 1. Vấn Đề Trước Khi Tối Ưu Hóa 
 
-Trước khi thực hiện cải tiến, đội ngũ phân tích và vận hành phải đối mặt với các nút thắt cổ chai nghiêm trọng:
+Trước khi thực hiện cải tiến, đội ngũ phân tích và vận hành phải đối mặt với các vấn đề sau:
 1. **Truy vấn phân mảnh trên PowerBI:** Một trang báo cáo phải bắn 5 câu query độc lập cho 5 bảng visual riêng lẻ, gây áp lực tài nguyên lớn lên cụm Data Warehouse.
 2. **Quy trình luân chuyển dữ liệu thủ công:** Nhân sự phải tải 5 file CSV từ PowerBI, nạp vào Google Sheets, chạy 2 notebook Python để merge dữ liệu và dùng hàm VLOOKUP trên Excel để ghép nối các chỉ số.
 3. **Rủi ro sai lệch công thức:** Các quy tắc ra quyết định vận hành phụ thuộc vào 40+ hàm `IF` lồng nhau trên bảng tính, dễ xảy ra lỗi kéo lệch công thức khi số lượng dòng thay đổi.
