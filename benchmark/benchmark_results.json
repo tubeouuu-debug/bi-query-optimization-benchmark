@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-09T21:48:33.319529",
+  "parameters": {
+    "iterations": 5,
+    "merchants": 1500,
+    "orders": 25000
+  },
+  "metrics": {
+    "legacy_avg_ms": 180.34,
+    "legacy_std_ms": 25.17,
+    "modernized_avg_ms": 68.04,
+    "modernized_std_ms": 2.75,
+    "speedup_factor": 2.65,
+    "latency_reduction_pct": 62.27,
+    "legacy_throughput_rec_sec": 8317,
+    "modernized_throughput_rec_sec": 22044
+  }
+}
